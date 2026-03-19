@@ -23,7 +23,7 @@
 
 # Network Configuration Setup
 - Since this is running on my local virutal machine setup, I need to find a way for all three virutal machines to identify each other. 
-- As a result I have decided to use the NAT only adapter method.
+- As a result I have decided to use the NAT Network adapter method.
 - This allows me to create a private network of many virutal machines that can communicate with each other while stil having access to the internet using the host(my computer)
 
 
