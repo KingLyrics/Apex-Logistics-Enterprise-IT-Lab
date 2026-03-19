@@ -33,7 +33,7 @@ The company requires:
 * Internal systems for operations and requests
 * Reliable infrastructure with monitoring and backups
 
-You are acting as a **Junior Systems Administrator**, responsible for building and maintaining this environment.
+I'm acting as a **Junior Systems Administrator**, responsible for building and maintaining this environment.
 
 ---
 
