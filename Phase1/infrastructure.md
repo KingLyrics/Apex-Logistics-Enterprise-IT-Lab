@@ -15,3 +15,7 @@
 - `Processors: 6`
 - `Display:256MB`
 
+### Windows Client OS Configuration   
+- `Base Memory: 4096`
+- `Processors: 9`
+- `Display: 256MB`
