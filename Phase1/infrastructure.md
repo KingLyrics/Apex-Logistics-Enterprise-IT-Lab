@@ -60,3 +60,6 @@
 
 - So i deleted the ip address using:
 `sudo ip addr del 192.168.65.5/24 enp0s3`
+- This wasn't working as it said either local is duplicate.
+- Error was due to me forgetting to add `dev` to the syntax.
+- Correct syntax: `sudo ip addr del 192.168.65.5/24 dev enp0s3`
