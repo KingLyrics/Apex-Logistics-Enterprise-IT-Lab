@@ -39,3 +39,24 @@
 - Default gateway: `192.168.65.1`
 - Each machine will be connected to the Nat network.
 - Static IP Addresses will be configured.
+
+
+# Checks and Additional configuration
+- Checking that the date and time are correct.
+- On `Alama Linux`: I ran `timedatectl` to ensure date and time were accurate.
+- Correcting date and time on the windows server.
+
+
+# Assiging Static IP Addresses
+## Alama Linux
+- To assign a static IP address for the linux sever I used the GUI nmtui to do it.
+
+- Static IP Address Assigned: `192.168.65.20/24`
+- Default gateway: `192.168.65.1`
+
+- After configuring and saving the IP address assigned, I had to restart the network manager using: `sudo systemctl restart NetworkManager`
+
+- Once restarted, it showed that it was given another dynamic address from the NAT network. I forgot to turn off  DHCP server.
+
+- So i deleted the ip address using:
+`sudo ip addr del 192.168.65.5/24 enp0s3`
