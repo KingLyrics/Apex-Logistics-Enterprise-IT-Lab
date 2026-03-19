@@ -4,6 +4,7 @@
 ## OS Installation
 - Installed Windows Server 2025, AlamaLinux and Windows 11 Pro edition.
 - Screenshots of installation are located in the `screenshots/phase1`
+- Snapshots were also taken of the fresh install. For disaster recovery purposes.
 
 ### Windows Server OS Configuration
 - `Base Memory: 2048 MB`
