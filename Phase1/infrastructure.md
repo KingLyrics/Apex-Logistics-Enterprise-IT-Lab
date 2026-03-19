@@ -63,3 +63,17 @@
 - This wasn't working as it said either local is duplicate.
 - Error was due to me forgetting to add `dev` to the syntax.
 - Correct syntax: `sudo ip addr del 192.168.65.5/24 dev enp0s3`
+
+## Windows Server
+- Static IP : `192.168.65.10`
+- Preferred DNS Server: `192.168.65.10`
+- Full Computer Name: `Apex-Win-Serv`
+- We want the windows Server to be the DNS Server
+
+
+## Windows Client
+
+
+## Testing computers can talk to each other
+- Couldn't ping the windows server and linux server.
+- Had to allow the firewall inbound rule for tcmp to be enabled. See screenshots for more.
