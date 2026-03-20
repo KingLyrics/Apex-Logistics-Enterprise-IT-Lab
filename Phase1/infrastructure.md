@@ -23,9 +23,10 @@
 
 
 ## Accounts Creation
-- Two accounts were created on setup.
+-  Accounts were created on setup.
 - `apex-sysadmin` -> For the Linux Server
 - `Adminstrator` -> For the Windows Server
+- `ApexBox` -> For the Windows client temporary account until it is connected to the domain
 
 # Network Configuration Setup
 - Since this is running on my local virutal machine setup, I need to find a way for all three virutal machines to identify each other. 
