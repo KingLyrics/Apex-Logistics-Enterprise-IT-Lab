@@ -25,3 +25,8 @@
 
 # Adding  the windows client machine to the domain.
 - Successfully added windows to the domain
+
+
+
+---
+# PHASE TWO COMPLETED.
