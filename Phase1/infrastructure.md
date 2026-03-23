@@ -1,5 +1,5 @@
 # Building the Infrastructure
-- Below are the configuration and build for this project. 
+- Below are the configurations and build for this project. 
 
 ## OS Installation
 - Installed Windows Server 2025, AlamaLinux and Windows 11 Pro edition.
@@ -73,6 +73,9 @@
 
 
 ## Windows Client
+- Static IP : `192.168.65.30`
+- Preferred DNS Server: `192.168.65.10`
+- Turned on the same firewall inbound rule for the windows client as well.
 
 
 ## Testing computers can talk to each other
