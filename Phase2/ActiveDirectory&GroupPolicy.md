@@ -20,3 +20,8 @@
 2) David - For HR
 3) Janice - For Operations
 4) Maria - For Finance
+
+- New snapshot created for windows server to save the current AD state.
+
+# Adding  the windows client machine to the domain.
+- Successfully added windows to the domain
