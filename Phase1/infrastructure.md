@@ -81,3 +81,7 @@
 ## Testing computers can talk to each other
 - Couldn't ping the windows server and linux server.
 - Had to allow the firewall inbound rule for tcmp to be enabled. See screenshots for more.
+- Had to enable ICMP inbound rule on the windows server for it to work. 
+- All machines can communicate with each other.
+
+# PHASE ONE COMPLETE
