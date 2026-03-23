@@ -11,6 +11,7 @@
 2. `HR`
 3. `Finance`
 4. `Operations`
+- Groups were made accordingly for better permission control.
 
 - All passwords assigned in this lab will never expire, soley for the purpose of this lab. In real world practice the user logins in and changes their password on logon and has an expiration date.
 
