@@ -84,4 +84,5 @@
 - Had to enable ICMP inbound rule on the windows server for it to work. 
 - All machines can communicate with each other.
 
-# PHASE ONE COMPLETE
+---
+# PHASE ONE COMPLETE 
