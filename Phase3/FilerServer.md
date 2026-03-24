@@ -59,3 +59,10 @@ mkdir -p  /srv/companyshares/Operations
 - Allow through firewall 
 `firewall-cmd --permanent --add-service=samba`
 `firewall-cmd --reload`
+
+# Install Winbind
+`sudo yum install -y samba-winbind samba-winbind-clients krb5-workstation`
+
+# Modifications
+- Edited smb.conf and /etc/nsswitch.conf accordingly. 
+- Screenshots for both are supplied.
