@@ -20,3 +20,42 @@
 ```
 - Then restart the network manager using: `systemctl restart NetworkManager` to validate changes
 - pinged to test: `ping apexlogistics.local` -> Was successful.
+
+
+# Joining domain
+- Packages to install
+ `dnf install realmd sssd oddjob oddjob-mkhomedir adcli samba-common-tools -y`
+ - Most packages were already installed except `oddjob` and `oddjob-mkhomedir`.
+
+- used realm to discover the domain
+`realm discover apexlogistics.local`
+- join AD
+` realm join  apexlogistics.local -U Administrator`
+
+- Check for user id
+` id ekom.admin@apexlogistics.local`
+- I prefer to leave the domain inclusive when checking instead of `id ekom.admin`
+
+
+
+# Creating folders
+- folders will be stored under /srv/companyshares/{OU}
+```
+mkdir -p /srv/companyshares/Finance
+mkdir -p /srv/companyshares/HR
+mkdir -p  /srv/companyshares/Operations
+```
+
+# setting permissions
+- Permissions were set according to the groups created earlier
+` chown -R root:"{Group-Name}@apex.logistics.local" /srv/companyshares/{OU} `
+
+
+# Configure Samba
+- To ensure that it works on the windows the `/etc/samba/smb.conf` need to be configured
+- Enbaling smb
+`systemctl enable smb --now`
+
+- Allow through firewall 
+`firewall-cmd --permanent --add-service=samba`
+`firewall-cmd --reload`
