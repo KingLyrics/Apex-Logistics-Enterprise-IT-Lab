@@ -143,7 +143,6 @@ Each phase includes:
 * **Networking:** DNS, DHCP, TCP/IP, NAT
 * **Scripting:** PowerShell, Bash
 * **Web & Database:** Apache/Nginx, MySQL/PostgreSQL
-* **Monitoring:** Netdata, Nagios (optional)
 * **Virtualization:** VirtualBox
 * **Version Control:** Git & GitHub
 
@@ -173,6 +172,8 @@ Each phase includes:
 * Azure Arc
 
 ---
+
+# ONGOING PROJECT
 
 ## 🙌 Author
 
