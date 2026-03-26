@@ -109,11 +109,6 @@ The project is divided into structured phases:
 10. **Backup & Disaster Recovery**
     Data protection and recovery simulations
 
-11. **Ticketing & Troubleshooting**
-    Real-world IT support scenarios and resolutions
-
-12. **API & Advanced Integration**
-    System communication through APIs and automation workflows
 
 ---
 
